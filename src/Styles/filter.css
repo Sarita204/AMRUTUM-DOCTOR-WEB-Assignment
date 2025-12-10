@@ -1,0 +1,153 @@
+/* Desktop css  */
+
+.filter-section {
+    background-color: #FFF7E2;
+}
+
+.filter-screen {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.filter-btn {
+    color: #3A643C;
+    border: 1px solid #cdccca;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+.filter-btn.active {
+    background-color: #3A643C !important;
+    color: #fff !important;
+    border-color: #3A643C;
+}
+
+.consultation-screen-title h6 {
+    color: #3A643C;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+.value-your-practice {
+    width: 220px;
+    height: 450px;
+}
+
+.filter-joinnow-btn {
+    background: #3A643B;
+    border: none;
+    margin: 5px;
+    width: 15%;
+    border-radius: 12px;
+    padding: 10px;
+
+}
+
+.filter-joinnow-btn:hover {
+    background: #3A643B !important;
+    border: none;
+}
+
+
+/* @media screen and (max-width: 799px) {
+.filter-joinnow-btn{
+       width: 30% !important;
+       padding: 10px;
+}
+} */
+
+/* Responsive  */
+
+/* Tablet Screens (max-width: 992px) */
+@media (max-width: 992px) {
+
+    .filter-screen {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .filter-btn {
+        padding: 7px 12px;
+        font-size: 15px;
+    }
+
+    .consultation-screen-title h6 {
+        font-size: 20px;
+    }
+
+    .value-your-practice {
+        width: 180px;
+        height: 380px;
+    }
+
+    .filter-joinnow-btn {
+        width: 25%;
+        font-size: 16px;
+    }
+}
+
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+
+    .filter-section {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .filter-screen {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    .filter-btn {
+        width: 60%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .consultation-screen-title h6 {
+        font-size: 18px;
+    }
+
+    .value-your-practice {
+        width: 150px;
+        height: 300px;
+    }
+
+    .filter-joinnow-btn {
+        width: 60%;
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+
+    .filter-btn {
+        width: 80%;
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .consultation-screen-title h6 {
+        font-size: 16px;
+    }
+
+    .value-your-practice {
+        width: 130px;
+        height: 250px;
+    }
+
+    .filter-joinnow-btn {
+        width: 80%;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,181 @@
+/* Desktop css  */
+
+.get-started-section {
+    background-color: #FFEDBF;
+}
+
+.getstarted-left-content {
+    padding: 30px 0;
+    text-align: left;
+}
+
+.getstarted-left-content h3 {
+    color: #33643F;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 15px 0 0 0;
+}
+
+.getstarted-left-content p {
+    color: #4C4C4C;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.get-started-card-section {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.getstarted-card {
+    background-color: #FFEEC3;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 15px;
+    height: fit-content;
+    width: 250px;
+    height: 65px;
+}
+
+.getstarted-header-section {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.getstarted-card-icons {
+    width: 100%;
+    height: 40px;
+    object-fit: contain;
+    object-position: top;
+}
+
+.getstarted-card-content p {
+    font-size: 18px;
+    color: #33643F;
+    margin: 0;
+    font-weight: 500;
+}
+
+.google-app-store {
+    display: flex;
+    gap: 30px;
+}
+
+.download-store-img {
+    width: 100%;
+    height: 60px;
+}
+
+.getstarted-right-wrapper {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.get-started-right-img {
+    width: 100%;
+    position: relative;
+    bottom: 55px;
+}
+
+
+/* Responsive  */
+
+/* Tablets (≤ 992px) */
+@media (max-width: 992px) {
+
+    .getstarted-left-content h3 {
+        font-size: 32px;
+    }
+
+    .getstarted-left-content p {
+        font-size: 18px;
+    }
+
+    .get-started-card-section {
+        justify-content: center;
+    }
+
+    .google-app-store {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .get-started-right-img {
+        bottom: 20px;
+        width: 80%;
+    }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+
+    .get-started-section {
+        text-align: center;
+    }
+
+    .getstarted-left-content {
+        text-align: center;
+    }
+
+    .getstarted-left-content h3 {
+        font-size: 28px;
+    }
+
+    .getstarted-left-content p {
+        font-size: 16px;
+    }
+
+    .get-started-card-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .getstarted-card {
+        width: 90%;
+        height: auto;
+        padding: 12px;
+    }
+
+    .getstarted-header-section {
+        gap: 10px;
+    }
+
+    .google-app-store {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .download-store-img {
+        width: 100%;
+    }
+
+    .get-started-right-img {
+        width: 90%;
+        bottom: 10px;
+    }
+}
+
+/* Small Mobile (≤ 480px) */
+@media (max-width: 480px) {
+
+    .getstarted-left-content h3 {
+        font-size: 24px;
+    }
+
+    .getstarted-left-content p {
+        font-size: 14px;
+    }
+
+    .getstarted-card-content p {
+        font-size: 16px;
+    }
+
+    .download-store-img {
+        width: 100%;
+    }
+}

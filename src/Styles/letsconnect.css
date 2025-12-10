@@ -1,0 +1,151 @@
+/* Desktop css  */
+.lets-connect-section {
+    background-color: #FFF7E2;
+}
+
+.lets-connect-section h3 {
+    color: #33643F;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 15px 0 0 0;
+}
+
+.lets-connect-section p {
+    color: #4C4C4C;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.lets-connect-img {
+    width: 100%;
+}
+
+.form-container {
+    border: 1px solid #D8CBA9;
+    border-radius: 12px;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.form-container label {
+    color: #3A643B;
+    font-size: 14px;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.form-container .form-control {
+    border: none;
+    border-bottom: 2px solid #BDBDBD;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 6px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #4C4C4C;
+}
+
+.form-container .form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #315918;
+}
+
+.form-container .input-group-text {
+    display: none !important;
+}
+
+.form-container button {
+    background-color: #315918;
+    border: none;
+    padding: 12px 32px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.form-container button:hover {
+    background-color: #315918;
+}
+
+/* Responsive  */
+
+/* Tablet (≤ 992px) */
+@media (max-width: 992px) {
+    .lets-connect-section h3 {
+        font-size: 34px;
+    }
+
+    .lets-connect-section p {
+        font-size: 18px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    .form-container .form-control {
+        font-size: 16px;
+    }
+}
+
+/* Mobile (≤ 768px) */
+
+@media (max-width: 768px) {
+    .lets-connect-section {
+        text-align: center;
+    }
+
+    .lets-connect-section h3 {
+        font-size: 30px;
+    }
+
+    .lets-connect-section p {
+        font-size: 16px;
+    }
+
+    .form-container {
+        padding: 18px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .form-container button {
+        width: 100%;
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .lets-connect-img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
+/* Small Mobile (≤ 480px) */
+@media (max-width: 480px) {
+
+    .lets-connect-section h3 {
+        font-size: 26px;
+    }
+
+    .lets-connect-section p {
+        font-size: 14px;
+    }
+
+    .form-container {
+        padding: 15px;
+    }
+
+    .form-container .form-control {
+        font-size: 14px;
+    }
+
+    .form-container button {
+        font-size: 15px;
+        padding: 12px;
+    }
+}

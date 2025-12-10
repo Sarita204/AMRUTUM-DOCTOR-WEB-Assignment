@@ -1,0 +1,164 @@
+/* Desktop css  */
+
+.why-chooseus-section {
+    background-color: #FFF7E2;
+}
+
+.why-chooseus-section h3 {
+    color: #33643F;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 15px 0 0 0;
+    margin: 0;
+}
+
+.why-chooseus-section p {
+    color: #4C4C4C;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.why-choose-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.main-img {
+    width: 100%;
+    display: block;
+}
+
+.call-icon {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 70px;
+    height: auto;
+}
+
+.why-choose-us-content {
+    text-align: left;
+    padding: 50px;
+}
+
+.why-choose-us-content h4 {
+    color: #33643F;
+    font-weight: 600;
+}
+
+.why-choose-us-content p {
+    color: #666666;
+    font-size: 16px;
+}
+
+
+/* Responsive  */
+
+/* Tablet Screens (max-width: 992px) */
+@media (max-width: 992px) {
+
+    .why-chooseus-section h3 {
+        font-size: 32px;
+    }
+
+    .why-chooseus-section p {
+        font-size: 18px;
+    }
+
+    .why-choose-us-content {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .why-choose-us-content h4 {
+        font-size: 24px;
+    }
+
+    .why-choose-us-content p {
+        font-size: 15px;
+    }
+
+    .call-icon {
+        width: 60px;
+        left: 30px;
+        top: 10px;
+    }
+}
+
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+
+    .why-chooseus-section {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .why-chooseus-section h3 {
+        font-size: 28px;
+    }
+
+    .why-chooseus-section p {
+        font-size: 16px;
+    }
+
+    .why-choose-image-wrapper {
+        display: block;
+        width: 80%;
+        margin: 0 auto 20px auto;
+    }
+
+    .main-img {
+        width: 100%;
+    }
+
+    .call-icon {
+        width: 50px;
+        left: 20px;
+        top: 8px;
+    }
+
+    .why-choose-us-content {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .why-choose-us-content h4 {
+        font-size: 22px;
+    }
+
+    .why-choose-us-content p {
+        font-size: 14px;
+    }
+}
+
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+
+    .why-chooseus-section h3 {
+        font-size: 24px;
+    }
+
+    .why-chooseus-section p {
+        font-size: 14px;
+    }
+
+    .call-icon {
+        width: 40px;
+        left: 15px;
+        top: 5px;
+    }
+
+    .why-choose-us-content {
+        padding: 15px;
+    }
+
+    .why-choose-us-content h4 {
+        font-size: 20px;
+    }
+
+    .why-choose-us-content p {
+        font-size: 13px;
+    }
+}

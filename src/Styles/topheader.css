@@ -1,0 +1,110 @@
+/* Desktop css  */
+
+.top-header {
+    background: #373636;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 0 150px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.top-header h6 {
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.join-now-btn {
+    background: #3A643B;
+    border: none;
+    margin: 5px;
+    width: 25%;
+    border-radius: 12px;
+}
+
+.join-now-btn:hover {
+    background: #3A643B !important;
+    border: none;
+}
+
+.doctor-icon {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.join-now-btn-content {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Responsive  */
+
+/* Tablets: max-width 992px */
+@media (max-width: 992px) {
+
+    .top-header {
+        padding: 0 50px;
+    }
+
+    .top-header h6 {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .join-now-btn {
+        width: 35%;
+        margin: 8px 0;
+    }
+}
+
+/* Mobile: max-width 768px */
+@media (max-width: 768px) {
+
+    .top-header {
+        justify-content: center;
+        padding: 10px 0;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .top-header h6 {
+        padding: 10px 0;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .join-now-btn {
+        width: 60%;
+        margin: 10px auto;
+    }
+
+    .doctor-icon {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .join-now-btn-content {
+        font-size: 14px;
+    }
+}
+
+/* Small Mobile: max-width 480px */
+@media (max-width: 480px) {
+
+    .top-header {
+        padding: 8px 0;
+    }
+
+    .join-now-btn {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .top-header h6 {
+        font-size: 14px;
+    }
+}

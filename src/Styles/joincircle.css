@@ -1,0 +1,148 @@
+/* Desktop css  */
+
+.join-our-section {
+    background-color: #FFF7E2;
+}
+
+.join-our-section h3 {
+    color: #33643F;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 15px 0 0 0;
+}
+
+.join-our-section p {
+    color: #4C4C4C;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.join-our-cards {
+    background-color: #FFF7E2;
+    text-align: left;
+}
+
+.join-our-cards:hover {
+    background-color: #3A643C;
+}
+
+.join-our-cards:hover .join-our-card-heading,
+.join-our-cards:hover .join-our-card-tagline {
+    color: #ffffff !important;
+}
+
+.join-our-card-heading {
+    color: #3A643C;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.join-our-card-tagline {
+    color: #3A643C !important;
+    font-size: 14px !important;
+}
+
+.join-our-cardactive-img {
+    width: 100%;
+    height: 480px;
+    margin-top: 30px;
+}
+
+
+/* Responsive  */
+
+/* Tablet Screens (max-width: 992px) */
+@media (max-width: 992px) {
+
+    .join-our-section h3 {
+        font-size: 32px;
+    }
+
+    .join-our-section p {
+        font-size: 18px;
+    }
+
+    .join-our-card-heading {
+        font-size: 20px;
+    }
+
+    .join-our-card-tagline {
+        font-size: 13px;
+    }
+
+    .join-our-cardactive-img {
+        height: 380px;
+        margin-top: 20px;
+    }
+
+    .join-our-cards {
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+
+    .join-our-section {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .join-our-section h3 {
+        font-size: 28px;
+    }
+
+    .join-our-section p {
+        font-size: 16px;
+    }
+
+    .join-our-cards {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .join-our-card-heading {
+        font-size: 18px;
+    }
+
+    .join-our-card-tagline {
+        font-size: 13px !important;
+    }
+
+    .join-our-cardactive-img {
+        width: 90%;
+        height: auto;
+        margin: 20px auto 0 auto;
+        display: block;
+    }
+}
+
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+
+    .join-our-section h3 {
+        font-size: 24px;
+    }
+
+    .join-our-section p {
+        font-size: 14px;
+    }
+
+    .join-our-card-heading {
+        font-size: 16px;
+    }
+
+    .join-our-card-tagline {
+        font-size: 12px !important;
+    }
+
+    .join-our-cardactive-img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+}
